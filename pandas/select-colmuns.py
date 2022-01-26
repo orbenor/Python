@@ -1,7 +1,7 @@
 import pandas as pd
 from openpyxl.workbook import Workbook
 
-df = pd.read_csv(r'G:\pandas\Ex_Files_Python_Excel\Ex_Files_Python_Excel\Exercise Files\Names.csv', header=None)
+df = pd.read_csv('Names.csv', header=None)
 df.columns = ['First', 'Last', 'Address', 'City', 'State', 'Area Code', 'Number' ]
 
 print(df)
@@ -20,6 +20,7 @@ print (df.iloc[2,1])
 # Now you can see we have both the State and the Area Code and their appropriate indices.
 #  Now they only tricky thing to remember here is that we use double brackets because we're 
 # presenting the index of the data frame as a list of columns.
+# add test comment
 
 
 # Output ============================================
