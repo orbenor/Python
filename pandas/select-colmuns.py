@@ -11,8 +11,12 @@ print('------------------------------------')
 print(df['Last'][0:3])
 print('------------------------------------')
 print('------------ iloc ------------------')
-# Print raw 3
+# Print all raw 3
 print (df.iloc[3])
+# 2        John "Da Man"    Repici                 120 Jefferson St.    Riverside    NJ       8075  120000
+print (df.iloc[2,1])
+# output will be:
+# Repici
 # Now you can see we have both the State and the Area Code and their appropriate indices.
 #  Now they only tricky thing to remember here is that we use double brackets because we're 
 # presenting the index of the data frame as a list of columns.
