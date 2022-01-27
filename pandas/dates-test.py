@@ -12,3 +12,4 @@ date='2-4-2020'
 date_time=pd.to_datetime(date)
 print (date)
 print(date_time.strftime('%#d-%#m-%Y'))
+# https://www.codegrepper.com/search.php?q=python%20pandas%20date%20format
