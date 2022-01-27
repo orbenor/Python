@@ -30,6 +30,6 @@ df = pd.DataFrame({"value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 
                              "18-12-2020","19-12-2020", "21-12-2020", "12-2-2020", "27-2-2022", "12-1-2022"]})
 df["date"] = pd.to_datetime(df["date"])
 
-df = df.sort_values(by="date")
+df = df.sort_values(by = "date")
 formatted_df = df["date"].dt.strftime("%#d/%#m/%Y")
 print (formatted_df)
