@@ -26,7 +26,7 @@ for link in all_urls:
     href=link.get('href')
 
     if href:
-        if r"techgeekbuzz.com" in href:    #internal link
+        if r"https://example.co.il" in href:    #internal link
             internal_urls.add(href)
 
         elif href[0]=="#":   #same page target link   
